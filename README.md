@@ -6,13 +6,13 @@ It is used to get a overview of the oginasation of a section of a scout group.
 If the folder structur is
 ```bash
 |--Test
-|   |--Per.png
-|   |--Lars.png
-|   |--Blue
-|   |   |--Lasse.png
-|   |   |--Niels.png
-|   |--Red
-|       |--Bo.png
+    |--Per.png
+    |--Lars.png
+    |--Blue
+    |   |--Lasse.png
+    |   |--Niels.png
+    |--Red
+        |--Bo.png
 ```
 Then the output will be
 ![alt text](https://github.com/steenstrup/ScoutPatrolPoster/blob/master/Image/Test.png?raw=true)
