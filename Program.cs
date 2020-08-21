@@ -41,7 +41,7 @@ namespace ScoutPatrolPoster
     {
         private static Green LoadData()
         {
-            string path = @"C:\Users\kasper steenstrup\Desktop\Valpe";
+            string path = @"C:\Users\kasper steenstrup\Desktop\Test";
 
             var leaderPaths = Directory.GetFiles(path, "*.png", SearchOption.TopDirectoryOnly).ToList();
             var patruljePaths = Directory.GetDirectories(path).ToList();
@@ -117,7 +117,7 @@ namespace ScoutPatrolPoster
                     }
                 }
             }
-            string path = @"C:\Users\kasper steenstrup\Desktop\Valpe.png";
+            string path = @"C:\Users\kasper steenstrup\Desktop\Test.png";
             Poster.Save(path);
 
         }
